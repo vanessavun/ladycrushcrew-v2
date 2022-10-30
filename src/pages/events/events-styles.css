@@ -1,0 +1,10 @@
+.events-container {
+    width: 60%;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-header {
+    justify-content: center;
+}
