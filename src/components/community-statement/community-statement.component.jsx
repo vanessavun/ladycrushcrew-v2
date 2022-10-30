@@ -1,4 +1,5 @@
 import React from 'react'
+import './community-styles.css'
 
 function CommunityStatement() {
   return (

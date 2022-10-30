@@ -1,0 +1,14 @@
+.about-container {
+    width: 60%;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header {
+    justify-content: center;
+}
+
+.about-emote {
+    font-family: 'Noto Color Emoji', sans-serif;
+}
