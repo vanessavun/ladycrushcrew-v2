@@ -1,5 +1,6 @@
 import React from 'react'
 import './events-styles.css'
+import eventPic from '../../assets/lccpacpipe.jpg'
 
 function Events() {
   return (
@@ -12,8 +13,10 @@ function Events() {
           <h2>California:</h2>
           <div className='events-list'>
             <ul>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
+              <h3>Pacific Pipe Meetup - Every Fourth Friday!</h3>
+              <img src={eventPic} />
+              <li>Come join us for an evening of climbing and cheering each other on. Bring all your best gal friends and come meet other awesome women in the community. All levels welcome! If you plan on rope climbing you must be Touchstone belay certified. Free for Touchstone members. $20 day pass for non-members - just let the front desk know you’re there for the meetup!</li>
+              <li>Questions? Contact <b>info@ladycrushcrew.com</b> or <b>IG @ladycrushcrew</b>.</li>
             </ul>
           </div>
         </div>
@@ -21,8 +24,7 @@ function Events() {
           <h2>Regional:</h2>
           <div className='events-list'>
           <ul>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
+              <li>No events planned.</li>
             </ul>
           </div>
         </div>
@@ -30,8 +32,7 @@ function Events() {
           <h2>Global:</h2>
           <div className='events-list'>
           <ul>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
-              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis vitae adipisci ipsam laboriosam ex dicta alias aliquid beatae quis voluptates non ab assumenda repellendus, ratione saepe repellat numquam cumque.</li>
+              <li>No events planned.</li>
             </ul>
           </div>
         </div>

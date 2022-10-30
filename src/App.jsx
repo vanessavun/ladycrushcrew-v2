@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import About from './pages/about/About'
 import Events from './pages/events/Events'
 import Shop from './pages/Shop'
-import Volunteer from './pages/Volunteer'
+import Volunteer from './pages/volunteer/Volunteer'
 import NoPage from './pages/Nopage'
 
 function App() {
