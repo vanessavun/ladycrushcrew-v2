@@ -24,41 +24,6 @@ a {
   text-decoration: none;
 }
 
-/* Header and Navigation */
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #faf9f9;
-}
-
-.logo h1 {
-  display: flex;
-  align-items: center;
-  font-family: 'Plus Jakarta Sans';
-  margin: 0 10px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0 10px;
-}
-
-nav a {
-  padding: 10px;
-}
-
-nav a:hover {
-  color: #bee3db;
-}
 
 
 /* Header Photo */
@@ -82,54 +47,6 @@ nav a:hover {
   padding: 10px;
 }
 
-/* Community Statement */
-.community {
-  background-color: #555b6e;
-  padding: 40px 80px;
-  text-align: center;
-  color: #bee3db;
-}
-
-/* Community Photos */
-.community-photos {
-  background-color: #555b6e;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px 20px 30px;
-}
-
-.group {
-  height: 300px;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.group h3 {
-  color: #ffd6ba;
-}
-
-#one {
-  background-image: url("/src/assets/LCC_Group.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#two {
-  background-image: url("/src/assets/LCC_Group2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#three {
-  background-image: url("/src/assets/LCC_Group3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 /* Crush */
 .crush {
@@ -141,31 +58,6 @@ nav a:hover {
 }
 
 .crush a:hover {
-  color: #bee3db;
-}
-
-/* Footer */
-footer h3 {
-  font-family: 'Plus Jakarta Sans';
-}
-
-footer img {
-  height: 100px;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-footer a {
-  color: #89b0ae;
-}
-
-footer a:hover {
   color: #bee3db;
 }
 

@@ -1,5 +1,33 @@
+/* Community Statement */
+.community {
+    background-color: #555b6e;
+    padding: 40px 80px;
+    text-align: center;
+    color: #bee3db;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Community Photos */
+.community-photos {
+    background-color: #555b6e;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px 20px 50px;
+    align-content: center;
+}
+
 .group {
-    transition: 1s ease;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    transition: 2s ease;
+}
+
+.group h3 {
+    color: #ffd6ba;
 }
 
 .group:hover {
@@ -7,4 +35,25 @@
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     transition: 1s ease;
+}
+
+#one {
+    background-image: url("/src/assets/LCC_Group.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#two {
+    background-image: url("/src/assets/LCC_Group2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#three {
+    background-image: url("/src/assets/LCC_Group3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

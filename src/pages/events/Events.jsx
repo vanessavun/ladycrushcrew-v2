@@ -14,7 +14,7 @@ function Events() {
           <div className='events-list'>
             <ul>
               <h3>Pacific Pipe Meetup - Every Fourth Friday!</h3>
-              <img src={eventPic} />
+              <img src={eventPic} alt='Women and non-binary climbers' />
               <li>Come join us for an evening of climbing and cheering each other on. Bring all your best gal friends and come meet other awesome women in the community. All levels welcome! If you plan on rope climbing you must be Touchstone belay certified. Free for Touchstone members. $20 day pass for non-members - just let the front desk know you’re there for the meetup!</li>
               <li>Questions? Contact <b>info@ladycrushcrew.com</b> or <b>IG @ladycrushcrew</b>.</li>
             </ul>

@@ -1,0 +1,43 @@
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #faf9f9;
+}
+
+footer h3 {
+    font-family: 'Plus Jakarta Sans';
+}  
+
+
+footer a {
+    color: #89b0ae;
+}
+
+footer a:hover {
+    color: #bee3db;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-instagram-img {
+    width: 50px;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixel-perfect {
+    font-size: 10px;
+}
